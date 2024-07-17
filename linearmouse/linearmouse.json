@@ -1,0 +1,31 @@
+{
+  "$schema" : "https:\/\/schema.linearmouse.app\/0.9.5",
+  "schemes" : [
+    {
+      "pointer" : {
+        "disableAcceleration" : true,
+        "acceleration" : 1.1,
+        "speed" : 0.0689655172413792768
+      },
+      "if" : {
+        "device" : {
+          "category" : "mouse",
+          "productName" : "USB Receiver",
+          "vendorID" : "0x46d",
+          "productID" : "0xc547"
+        }
+      },
+      "scrolling" : {
+        "speed" : {
+          "vertical" : 0
+        },
+        "acceleration" : {
+          "vertical" : 1
+        },
+        "distance" : {
+          "vertical" : "auto"
+        }
+      }
+    }
+  ]
+}

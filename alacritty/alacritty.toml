@@ -1,0 +1,14 @@
+import = ["~/.config/alacritty/dracula.toml"]
+
+[window]
+padding = { x = 3, y = 3}
+dynamic_padding = true
+opacity = 0.8
+blur = true
+
+[scrolling]
+history = 100000
+
+[font]
+normal = { family = "FiraCode Nerd Font", style = "Regular" }
+size = 21
